@@ -57,6 +57,26 @@ h4 {
   margin-bottom: var(--page-subtitle-margin-y);
 }
 
+#gallery table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#gallery table td {
+  width: 33.33%;
+  border: none;
+  padding: 0;
+}
+
+#gallery table td div {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 section > p,
 article > p {
   line-height: 24px;
