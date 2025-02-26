@@ -1,1 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap");
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('../media/fonts/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
