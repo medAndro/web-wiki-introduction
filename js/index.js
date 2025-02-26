@@ -44,13 +44,14 @@ function getCookie(name) {
 function saveMultipleComments() {
   const existing = JSON.parse(getCookie('comments') || '[]');
   const newComment = {
-      nickname: document.getElementById('nickname').value,
+      nickname: "방문자",
       comment: document.getElementById('comment').value,
       date: new Date().toISOString()
   };
   existing.push(newComment);
   setCookie('comments', JSON.stringify(existing), 365);
   window.alert("댓글이 등록되었습니다");
+  displaySavedComments();
 }
 
 
