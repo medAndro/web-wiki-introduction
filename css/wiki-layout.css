@@ -109,6 +109,12 @@ section::after {
   border-bottom: 1px solid var(--divider-color);
 }
 
+.article-divider {
+  border-top: 1px solid var(--divider-color);
+  margin: 30px 0;
+  width: 100%;
+}
+
 hr {
   border: 1px solid var(--divider-color);
 }
