@@ -77,8 +77,6 @@ function createCommentElement(commentData, index) {
   li.dataset.index = index;
 
   li.innerHTML = `
-            <li>
-              <div class="comment-item">
                 <div class="comment-author">
                   <img src="./media/images/comment-author-icon.png" alt="사용자 프로필 이미지" />
                   <span>${commentData.nickname}</span>
@@ -86,8 +84,6 @@ function createCommentElement(commentData, index) {
                 <div class="comment-content">
                 ${commentData.comment}
                 </div>
-              </div>
-            </li>
   `;
 
   return li;
